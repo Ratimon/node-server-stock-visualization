@@ -1,0 +1,26 @@
+{
+  "name": "node-web-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords":[
+    "example",
+    "heroku"
+  ],
+  "author": "",
+  "engines": {
+    "node": "4.1.1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "express": "^4.14.0",
+    "redis": "^2.6.5",
+    "socket.io": "^1.7.2",
+    "stockthai": "^1.0.6",
+    "yahoo-finance": "^0.2.16"
+  }
+}
