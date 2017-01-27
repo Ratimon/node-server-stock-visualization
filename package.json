@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index_multiple.js"
+    "start": "node ./index_multiple.js"
   },
   "keywords":[
     "example",
