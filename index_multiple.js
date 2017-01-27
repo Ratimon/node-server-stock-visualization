@@ -1,7 +1,7 @@
 const express = require('express');
 const socketio = require('socket.io');
 
-var port = process.env.$PORT || 8080;
+var port = process.env.PORT || 8080;
 
 var app = express();
 var server = app.listen(port);
