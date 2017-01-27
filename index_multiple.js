@@ -1,8 +1,10 @@
 const express = require('express');
 const socketio = require('socket.io');
 
+var port = process.env.$PORT || 8080;
+
 var app = express();
-var server = app.listen(8080);
+var server = app.listen(port);
 var io = socketio(server);
 
 //Yahoo API
