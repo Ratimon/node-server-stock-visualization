@@ -36,7 +36,6 @@ io.on('connection', (socket) => {
     //   'AAPL'
     //   // 'GOOG',
     //   // 'MSFT'
-    //
     // ];
 
     yahooFinance.snapshot({

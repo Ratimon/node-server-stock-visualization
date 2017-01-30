@@ -21,7 +21,6 @@
     "lodash": "^4.17.4",
     "redis": "^2.6.5",
     "socket.io": "^1.7.2",
-    "stockthai": "^1.0.6",
     "yahoo-finance": "^0.2.16"
   }
 }

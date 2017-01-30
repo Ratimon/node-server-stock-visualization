@@ -1,0 +1,26 @@
+== README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+
+**The Purpose**
+The goal of this project was to create Node.js-based server to make real-time feature for https://stock-visualization.herokuapp.com/
+
+**Technology**
+*HTML
+*Javascript
+  *Node.js
+    *Express.js
+  *Socket.io
+
+
+**Data Source**
+*Yahoo Finance API and its gem
+
+**Requirement**
+*Send and Emit data every 6 seconds
+
+
+**Live Website**
+*https://stock-visualization.herokuapp.com/my_portfolio

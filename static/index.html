@@ -21,8 +21,16 @@
   var sendStr = JSON.stringify(sendObj)
 
     var socket = io();
-    //start it all off
-    socket.emit('stock_update_request', sendStr);
+    //start it all off''
+
+    var utc_offset_ny = -16;
+    var now   = new Date(new Date().getTime() + (utc_offset_ny) * 3600 * 1000)
+    var open  = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 9,15,0 )
+    var close = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 16,15,0 )
+    if( now.getTime() > open.getTime() && now.getTime() < close.getTime() ) {
+      socket.emit('stock_update_request', sendStr);
+    }
+    // socket.emit('stock_update_request', sendStr);
     socket.on('update_stock', (data) => {
       var results = JSON.parse(data)
       console.log(results[0])
